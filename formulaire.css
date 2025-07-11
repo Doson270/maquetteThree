@@ -1,0 +1,102 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerContainer {
+    display: flex;
+    background-image: url("img/fond.jpg");
+    color: white;
+    justify-content: space-between;
+    height: 140px;
+    margin: 0px;
+
+}
+.titleContainer {
+    display: flex;
+    align-items: end;
+    margin-left: 20px;
+}
+.navBarContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.navBar {
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+    font-size: 12px;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+.href {
+    display: flex;
+    justify-content: end;
+    /* width: 600px; */
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    /* background-color: aqua;  */
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.1); 
+box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.1);
+}
+.divContainer {
+    display: flex;
+    justify-content: center;
+    /* height: 100px; */
+}
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 360px;
+}
+.textContainer > span {
+    margin-bottom: 10px;
+}
+.textContainer > textarea {
+    margin-bottom: 20px;
+    width: 340px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.envoyer {
+    background-color: rgb(30, 30, 60);
+    border-radius: 50px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    text-align: center;
+}
+.footer > span {
+    font-size: 8px;
+}
+
